@@ -9,7 +9,23 @@
 #import <Cocoa/Cocoa.h>
 
 @interface chengangAppDelegate : NSObject <NSApplicationDelegate>
+{
+    IBOutlet NSTextField * searchResult;
+    IBOutlet NSTextField * searchInput;
+    IBOutlet NSTextField * topSearchText;
+    IBOutlet NSTextField * rememberedText;
+    IBOutlet NSTextField * countLabel;
+    IBOutlet NSMutableArray * topSearchWords;
+    IBOutlet NSTableView * topSearchTable;
+    IBOutlet NSButtonCell * rememeberedCheckbox;
+    NSString * readDBPath;
+    NSString * writeDBPath;
+    NSMutableString * nowEnglish;
+    NSMutableString * nowChinese;
+}
 
 @property (assign) IBOutlet NSWindow *window;
+
+-(IBAction)searchOnChange:(id)sender;
 
 @end

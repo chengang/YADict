@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6703589E17A8BAAA00D6D37E /* dict.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 6703589D17A8BAAA00D6D37E /* dict.sqlite3 */; };
+		670358A017A8BB3600D6D37E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6703589F17A8BB3600D6D37E /* libsqlite3.dylib */; };
+		67382A1217BA7091008384A9 /* searchCount.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 67382A1117BA7091008384A9 /* searchCount.sqlite3 */; };
 		6755FD8317A66A6A00AE097A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6755FD8217A66A6A00AE097A /* Cocoa.framework */; };
 		6755FD8D17A66A6A00AE097A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6755FD8B17A66A6A00AE097A /* InfoPlist.strings */; };
 		6755FD8F17A66A6A00AE097A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6755FD8E17A66A6A00AE097A /* main.m */; };
 		6755FD9317A66A6A00AE097A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6755FD9117A66A6A00AE097A /* Credits.rtf */; };
 		6755FD9617A66A6A00AE097A /* chengangAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6755FD9517A66A6A00AE097A /* chengangAppDelegate.m */; };
 		6755FD9917A66A6B00AE097A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6755FD9717A66A6B00AE097A /* MainMenu.xib */; };
+		67A576DA17C27907003B4FB5 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 67A576D917C27907003B4FB5 /* icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6703589C17A8AC7600D6D37E /* YADict.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = YADict.entitlements; sourceTree = "<group>"; };
+		6703589D17A8BAAA00D6D37E /* dict.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dict.sqlite3; sourceTree = "<group>"; };
+		6703589F17A8BB3600D6D37E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		6712F27817C340170060B033 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.xib"; sourceTree = "<group>"; };
+		6712F27917C340170060B033 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		6712F27A17C340170060B033 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "zh-Hans.lproj/Credits.rtf"; sourceTree = "<group>"; };
+		6712F27B17C355220060B033 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hant"; path = "zh-Hant.lproj/MainMenu.xib"; sourceTree = "<group>"; };
+		6712F27C17C355220060B033 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		6712F27D17C355220060B033 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hant"; path = "zh-Hant.lproj/Credits.rtf"; sourceTree = "<group>"; };
+		67382A1117BA7091008384A9 /* searchCount.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = searchCount.sqlite3; sourceTree = "<group>"; };
 		6755FD7F17A66A6A00AE097A /* YADict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YADict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6755FD8217A66A6A00AE097A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6755FD8517A66A6A00AE097A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -29,6 +43,7 @@
 		6755FD9417A66A6A00AE097A /* chengangAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chengangAppDelegate.h; sourceTree = "<group>"; };
 		6755FD9517A66A6A00AE097A /* chengangAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chengangAppDelegate.m; sourceTree = "<group>"; };
 		6755FD9817A66A6B00AE097A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		67A576D917C27907003B4FB5 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				670358A017A8BB3600D6D37E /* libsqlite3.dylib in Frameworks */,
 				6755FD8317A66A6A00AE097A /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +62,8 @@
 		6755FD7617A66A6A00AE097A = {
 			isa = PBXGroup;
 			children = (
+				67A576D917C27907003B4FB5 /* icon.icns */,
+				6703589F17A8BB3600D6D37E /* libsqlite3.dylib */,
 				6755FD8817A66A6A00AE097A /* YADict */,
 				6755FD8117A66A6A00AE097A /* Frameworks */,
 				6755FD8017A66A6A00AE097A /* Products */,
@@ -82,6 +100,7 @@
 		6755FD8817A66A6A00AE097A /* YADict */ = {
 			isa = PBXGroup;
 			children = (
+				6703589C17A8AC7600D6D37E /* YADict.entitlements */,
 				6755FD9417A66A6A00AE097A /* chengangAppDelegate.h */,
 				6755FD9517A66A6A00AE097A /* chengangAppDelegate.m */,
 				6755FD9717A66A6B00AE097A /* MainMenu.xib */,
@@ -93,8 +112,10 @@
 		6755FD8917A66A6A00AE097A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				67382A1117BA7091008384A9 /* searchCount.sqlite3 */,
 				6755FD8A17A66A6A00AE097A /* YADict-Info.plist */,
 				6755FD8B17A66A6A00AE097A /* InfoPlist.strings */,
+				6703589D17A8BAAA00D6D37E /* dict.sqlite3 */,
 				6755FD8E17A66A6A00AE097A /* main.m */,
 				6755FD9017A66A6A00AE097A /* YADict-Prefix.pch */,
 				6755FD9117A66A6A00AE097A /* Credits.rtf */,
@@ -138,6 +159,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 6755FD7617A66A6A00AE097A;
 			productRefGroup = 6755FD8017A66A6A00AE097A /* Products */;
@@ -157,6 +180,9 @@
 				6755FD8D17A66A6A00AE097A /* InfoPlist.strings in Resources */,
 				6755FD9317A66A6A00AE097A /* Credits.rtf in Resources */,
 				6755FD9917A66A6B00AE097A /* MainMenu.xib in Resources */,
+				6703589E17A8BAAA00D6D37E /* dict.sqlite3 in Resources */,
+				67382A1217BA7091008384A9 /* searchCount.sqlite3 in Resources */,
+				67A576DA17C27907003B4FB5 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +205,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				6755FD8C17A66A6A00AE097A /* en */,
+				6712F27917C340170060B033 /* zh-Hans */,
+				6712F27C17C355220060B033 /* zh-Hant */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -187,6 +215,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				6755FD9217A66A6A00AE097A /* en */,
+				6712F27A17C340170060B033 /* zh-Hans */,
+				6712F27D17C355220060B033 /* zh-Hant */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -195,6 +225,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				6755FD9817A66A6B00AE097A /* en */,
+				6712F27817C340170060B033 /* zh-Hans */,
+				6712F27B17C355220060B033 /* zh-Hant */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -264,11 +296,15 @@
 		6755FD9D17A66A6B00AE097A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = YADict/YADict.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YADict/YADict-Prefix.pch";
 				INFOPLIST_FILE = "YADict/YADict-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -276,11 +312,15 @@
 		6755FD9E17A66A6B00AE097A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = YADict/YADict.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YADict/YADict-Prefix.pch";
 				INFOPLIST_FILE = "YADict/YADict-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -304,6 +344,7 @@
 				6755FD9E17A66A6B00AE097A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
